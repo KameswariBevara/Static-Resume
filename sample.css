@@ -1,0 +1,24 @@
+
+.maindiv
+{
+	
+
+	background:#EA28F6 ;
+	
+	justify-content: space-around;;
+	color: black;
+	border-radius: 5%;
+	height: 30%;
+	width: 20%;
+	box-shadow: 6px,6px,7px;
+	padding: 6%;
+	margin: 5%;
+	text-align: center;
+}
+
+@media screen and (max-width:400px) 
+{
+	.maindiv{
+      flex-direction: column;
+	}
+}
